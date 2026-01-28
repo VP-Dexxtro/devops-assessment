@@ -80,7 +80,7 @@ echo "IMPORTANT: Log out and log back in for docker group changes to take effect
 echo ""
 echo "Next steps:"
 echo "1. Clone your repository:"
-echo "   git clone https://github.com/your-username/devops-assessment.git"
+echo "   git clone https://github.com/VP-Dexxtro/devops-assessment.git"
 echo "   cd devops-assessment"
 echo ""
 echo "2. Deploy the application:"

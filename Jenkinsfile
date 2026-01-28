@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKER_IMAGE_FRONTEND = 'yourusername/frontend'
-        DOCKER_IMAGE_BACKEND = 'yourusername/backend'
+        DOCKER_IMAGE_FRONTEND = 'vineet2001/frontend'
+        DOCKER_IMAGE_BACKEND = 'vineet2001/backend'
         DOCKER_TAG = "${BUILD_NUMBER}"
     }
 
@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out source code...'
-                git branch: 'main', url: 'https://github.com/YOUR_GITHUB_USERNAME/devops-assessment.git'
+                git branch: 'main', url: 'https://github.com/VP-Dexxtro/devops-assessment.git'
             }
         }
 

@@ -102,7 +102,7 @@ devops-assessment/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/devops-assessment.git
+   git clone https://github.com/VP-Dexxtro/devops-assessment.git
    cd devops-assessment
    ```
 
@@ -175,7 +175,7 @@ Reconnect via SSH.
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/devops-assessment.git
+git clone https://github.com/VP-Dexxtro/devops-assessment.git
 cd devops-assessment
 
 # Build and start all services
